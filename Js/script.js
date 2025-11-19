@@ -1,7 +1,10 @@
-function sayHello() {
-  alert("Hello from the external file!");
+function greetUser() {
+  let name = document.getElementById("nameInput").value;
+  if (name.trim() === "") {
+    alert("Please enter your name first!");
+  } else {
+    alert("Hello, " + name + "!");
+  }
 }
 
-// Connect the function to the button
-let btn = document.getElementById("helloBtn");
-btn.addEventListener("click", sayHello);
+document.getElementById("greetBtn").addEventListener("click", greetUser);
