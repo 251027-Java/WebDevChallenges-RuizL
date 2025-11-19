@@ -1,0 +1,39 @@
+.an-image {
+    border-color: black;
+    border-width: 7px;
+    border-style: solid;
+    height: 100px;
+    width: 400px;
+    align-content: center;
+    padding-left: 30px;
+}
+
+.link {
+    color: blue; /* Sets the text color to black (or any other color) */
+  text-decoration: underline; /* Adds an underline */
+  text-decoration-color: blue;
+}
+
+.weird-text {
+
+    align-content: center;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    margin-left: 2px;
+}
+
+table, th, td  {
+  border: 1px solid black; /* This creates the "hollow" outer border */
+  
+}
+
+.gender-form {
+    border: 1px black;
+    border-style: solid;
+    padding: 5px;
+    width: 400px;
+    
+
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> <!-- This meta tag defines the character encoding for the page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <!-- an image  -->
+        <div class="an-image">an image</div>
+        <h1>About</h1>
+        <div class="weird-text"> 
+            <p> Some text about the website</p>
+        </div>
+        <h2>Our Locations</h2>
+        <!-- unordered list with 2 li and 3 sub list items -->
+        <ul>
+            <li>USA</li>
+            <ul>
+                <li class="link">New York</li>
+                <li class="link">Columbus</li>
+                <li class="link">Austin</li>
+                <li class="link">Philly</li>
+            </ul>
+            <li>World</li>
+            <ul>
+                <li class="link">Ottawa</li>
+                <li class="link">Sydney</li>
+            </ul>
+            
+        </ul>
+
+        <h2>Upcoming Classes</h2>
+
+        <!-- table thead location, topic with NY and San Francisco rows -->
+         <table>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>New York</td>
+                    <td>JavaScript & jQuery</td>
+                </tr>
+                <tr>
+                    <td>San Francisco</td>
+                    <td>HTML & CSS</td>
+                </tr>
+            </tbody>
+         </table>
+
+        <h2>Sign up!</h2>
+        
+        <form>
+            <div>Name: <input type="text"></div>
+            <div>Email: <input type="text"> </div>
+            <div>
+                Location:  
+                <select name="location">
+                    <option value="NY">New York</option>
+                    <option value="SF">San Francisco</option>
+                </select>
+            <fieldset class="gender-form">
+                <legend> Gender:</legend>
+                <label for="name">Male:</label>
+                <input type="radio" id="name">
+                <label for="email">Female:</label>
+                <input type="radio" id="email">
+            </fieldset>
+            <div>
+                Experience:
+                <br>
+                <textarea></textarea>
+            </div>
+             <br>
+             <!-- submit button with sign up as the text -->
+             <button>Sign Up</button>
+        </form>
+
+        <div class="link">Twitter | Facebook | Flickr</div>
+    </body>
+</html>
