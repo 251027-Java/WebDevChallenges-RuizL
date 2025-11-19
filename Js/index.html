@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Greeting Input</title>
+    <title>External Script Example</title>
   </head>
   <body>
-    <h2>Enter a number:</h2>
-    <input type="text" id="numberInput" placeholder="Your number here">
-    <button onclick="greetUser()">Square Me</button>
+    <h1>External JavaScript Demo</h1>
+    <p>Open the console to see the message.</p>
 
-    <script>
-      function greetUser() {
-        let name = Number(document.getElementById("numberInput").value);
-        alert("Your number squared is " + name * name);
-      }
-    </script>
+    <!-- Link the external script file -->
+    <script src="script.js"></script>
   </body>
 </html>
